@@ -16,7 +16,7 @@ const About = () => {
           
         >
           <img
-            src="https://media.istockphoto.com/id/481229372/photo/spiral-galaxy-illustration-of-milky-way.jpg?s=612x612&w=0&k=20&c=O-OKRJWM_XhGv48z6OhOj_tKBwEaDsvhYKguEN1yuJM="
+            src="/images/licensed-image.jpeg"
             loading="lazy"
             alt="Galaxy"
             className="rounded-2xl hover:scale-110 transition-transform ease-in-out duration-700 cursor-pointer w-full max-w-sm md:max-w-full shadow-lg shadow-[#9D4EDD]/40"
