@@ -7,8 +7,7 @@ const projects = [
     title: "Agency Website",
     description:
       "Modern digital agency website built with React and Tailwind CSS, featuring smooth animations and a responsive layout.",
-    image:
-      "src/assets/images.jpeg", // غيّر اللينك لو عندك صورة حقيقية
+    image: "/projects/images.jpeg",
     link: "https://agency-iota-lemon.vercel.app/",
   },
   {
@@ -16,8 +15,7 @@ const projects = [
     title: "E-Commerce Website",
     description:
       "A complete e-commerce platform with login, product pages, cart system, and responsive UI using React and Redux.",
-    image:
-      "src/assets/images (1).jpeg",
+    image: "/projects/images1.jpeg",
     link: "https://e-commerce2-qiu6.vercel.app/login",
   },
   {
@@ -25,8 +23,7 @@ const projects = [
     title: "Movies App",
     description:
       "A movie browsing app that fetches real-time data from an API, with search, filtering, and detailed pages built using React.",
-    image:
-      "src/assets/e92ed228a6924420a8963bdc6c9ddef1.webp",
+    image: "/projects/movies.webp",
     link: "https://movies-nine-lovat.vercel.app/",
   },
   {
@@ -34,8 +31,7 @@ const projects = [
     title: "Medical Website (Graduation Project)",
     description:
       "Graduation project — a medical platform that allows patients to book appointments, consult doctors online, and check medicine conflicts.",
-    image:
-      "src/assets/images (2).jpeg",
+    image: "/projects/medical.jpeg",
     link: "https://g-project-two.vercel.app/",
   },
   {
@@ -43,8 +39,7 @@ const projects = [
     title: "Games Hub",
     description:
       "A fun games listing website displaying trending and popular games with categories and responsive design.",
-    image:
-      "src/assets/100-best-games-hp-b.webp",
+    image: "/projects/games.webp",
     link: "https://eslam1fadl.github.io/Games/",
   },
   {
@@ -52,8 +47,7 @@ const projects = [
     title: "Global Weather App",
     description:
       "A weather app that provides real-time weather updates for any city worldwide using OpenWeather API.",
-    image:
-      "src/assets/изображение_2023-11-15_143610436-1024x576.jpg",
+    image: "/projects/weather.jpg",
     link: "https://eslam1fadl.github.io/Global-Weather/",
   },
   {
@@ -61,8 +55,7 @@ const projects = [
     title: "Daniels Portfolio",
     description:
       "A responsive personal portfolio template built with HTML, CSS, and JavaScript showcasing animations and sections.",
-    image:
-      "src/assets/habilidades-portfolio-manager-1024x682-1.webp",
+    image: "/projects/daniels.webp",
     link: "https://eslam1fadl.github.io/Daniels/",
   },
   {
@@ -70,8 +63,7 @@ const projects = [
     title: "Notes Backend API",
     description:
       "A Node.js and Express backend project for managing notes with CRUD operations and MongoDB integration.",
-    image:
-      "src/assets/the-best-ai-tools-for-taking-notes-in-2025_r4at.jpg",
+    image: "/projects/notes.jpg",
     link: "https://github.com/pjs-backend/project_notes",
   },
   {
@@ -79,24 +71,19 @@ const projects = [
     title: "Saraha Clone Backend",
     description:
       "A backend system built with Express and MongoDB that mimics the Saraha anonymous messaging platform.",
-    image:
-      "src/assets/the-sarahah-app-is-seen-on-an-iphone-on-28-august-2017-in-this-photo-illustration-saraha-means-honesty-in-arabic-and-the-app-lets-users-send-each-other-anonymous-messages-the-app-has.jpg",
+    image: "/projects/saraha.jpg",
     link: "https://github.com/pjs-backend/saraha_project",
   },
 ];
 
-// Parent container animation
 const containerVariants = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
-    transition: {
-      staggerChildren: 0.3,
-    },
+    transition: { staggerChildren: 0.3 },
   },
 };
 
-// Card animation
 const cardVariants = {
   hidden: { opacity: 0, y: 50 },
   show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" } },
@@ -108,7 +95,6 @@ const ProjectsGrid = () => {
       id="project"
       className="bg-[#0E0B16] text-[#F8F9FA] py-16 px-6 md:px-20 min-h-screen"
     >
-      {/* Section Title */}
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-5xl font-bold text-[#9D4EDD]">
           My Projects
@@ -118,7 +104,6 @@ const ProjectsGrid = () => {
         </p>
       </div>
 
-      {/* Projects Grid */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -130,14 +115,10 @@ const ProjectsGrid = () => {
           <motion.div
             key={project.id}
             variants={cardVariants}
-            whileHover={{
-              scale: 1.05,
-              boxShadow: "0px 0px 25px #9D4EDD",
-            }}
+            whileHover={{ scale: 1.05, boxShadow: "0px 0px 25px #9D4EDD" }}
             transition={{ duration: 0.3 }}
             className="bg-[#1A1A2E] rounded-2xl shadow-lg overflow-hidden cursor-pointer"
           >
-            {/* Project Image */}
             <motion.img
               src={project.image}
               alt={project.title}
@@ -145,8 +126,6 @@ const ProjectsGrid = () => {
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.4 }}
             />
-
-            {/* Content */}
             <div className="p-6 flex flex-col justify-between h-[230px]">
               <div>
                 <h3 className="text-xl font-bold text-[#FFB347] mb-2">
@@ -161,8 +140,7 @@ const ProjectsGrid = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
-                className="mt-4 bg-[#FFB347] text-[#0E0B16] px-4 py-2 rounded-full font-semibold text-sm w-fit 
-                           hover:bg-[#ffca66] transition duration-300"
+                className="mt-4 bg-[#FFB347] text-[#0E0B16] px-4 py-2 rounded-full font-semibold text-sm w-fit hover:bg-[#ffca66] transition duration-300"
               >
                 View Project
               </motion.a>

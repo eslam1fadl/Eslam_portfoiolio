@@ -8,8 +8,7 @@ const projects = [
     title: "Agency Website",
     description:
       "Modern digital agency website built with React and Tailwind CSS, featuring smooth animations and a responsive layout.",
-    image:
-      "src/assets/images.jpeg", // غيّر اللينك لو عندك صورة حقيقية
+    image: "/images/project1.jpg",
     link: "https://agency-iota-lemon.vercel.app/",
   },
   {
@@ -17,20 +16,11 @@ const projects = [
     title: "E-Commerce Website",
     description:
       "A complete e-commerce platform with login, product pages, cart system, and responsive UI using React and Redux.",
-    image:
-      "src/assets/images (1).jpeg",
+    image: "/images/project2.jpg",
     link: "https://e-commerce2-qiu6.vercel.app/login",
   },
-  {
-    id: 3,
-    title: "Medical Website (Graduation Project)",
-    description:
-      "Graduation project — a medical platform that allows patients to book appointments, consult doctors online, and check medicine conflicts.",
-    image:
-      "src/assets/images (2).jpeg",
-    link: "https://g-project-two.vercel.app/",
-  },
-]
+];
+
 
 const containerVariants = {
   hidden: { opacity: 0 },
