@@ -7,7 +7,7 @@ const projects = [
     title: "Agency Website",
     description:
       "Modern digital agency website built with React and Tailwind CSS, featuring smooth animations and a responsive layout.",
-    image: "/projects/images.jpeg",
+    image: "/images/images.jpeg",
     link: "https://agency-iota-lemon.vercel.app/",
   },
   {
@@ -15,7 +15,7 @@ const projects = [
     title: "E-Commerce Website",
     description:
       "A complete e-commerce platform with login, product pages, cart system, and responsive UI using React and Redux.",
-    image: "/projects/images1.jpeg",
+    image: "/images/images (1).jpeg",
     link: "https://e-commerce2-qiu6.vercel.app/login",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     title: "Movies App",
     description:
       "A movie browsing app that fetches real-time data from an API, with search, filtering, and detailed pages built using React.",
-    image: "/projects/movies.webp",
+    image: "/images/e92ed228a6924420a8963bdc6c9ddef1.webp",
     link: "https://movies-nine-lovat.vercel.app/",
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     title: "Medical Website (Graduation Project)",
     description:
       "Graduation project — a medical platform that allows patients to book appointments, consult doctors online, and check medicine conflicts.",
-    image: "/projects/medical.jpeg",
+    image: "/images/images (2).jpeg",
     link: "https://g-project-two.vercel.app/",
   },
   {
@@ -39,7 +39,7 @@ const projects = [
     title: "Games Hub",
     description:
       "A fun games listing website displaying trending and popular games with categories and responsive design.",
-    image: "/projects/games.webp",
+    image: "/images/100-best-games-hp-b.webp public/images/images (2).jpeg",
     link: "https://eslam1fadl.github.io/Games/",
   },
   {
@@ -47,7 +47,7 @@ const projects = [
     title: "Global Weather App",
     description:
       "A weather app that provides real-time weather updates for any city worldwide using OpenWeather API.",
-    image: "/projects/weather.jpg",
+    image: "/images/изображение_2023-11-15_143610436-1024x576.jpg",
     link: "https://eslam1fadl.github.io/Global-Weather/",
   },
   {
@@ -55,7 +55,7 @@ const projects = [
     title: "Daniels Portfolio",
     description:
       "A responsive personal portfolio template built with HTML, CSS, and JavaScript showcasing animations and sections.",
-    image: "/projects/daniels.webp",
+    image: "/images/habilidades-portfolio-manager-1024x682-1.webp",
     link: "https://eslam1fadl.github.io/Daniels/",
   },
   {
@@ -63,7 +63,7 @@ const projects = [
     title: "Notes Backend API",
     description:
       "A Node.js and Express backend project for managing notes with CRUD operations and MongoDB integration.",
-    image: "/projects/notes.jpg",
+    image: "/images/the-best-ai-tools-for-taking-notes-in-2025_r4at.jpg",
     link: "https://github.com/pjs-backend/project_notes",
   },
   {
@@ -71,7 +71,7 @@ const projects = [
     title: "Saraha Clone Backend",
     description:
       "A backend system built with Express and MongoDB that mimics the Saraha anonymous messaging platform.",
-    image: "/projects/saraha.jpg",
+    image: "/images/the-sarahah-app-is-seen-on-an-iphone-on-28-august-2017-in-this-photo-illustration-saraha-means-honesty-in-arabic-and-the-app-lets-users-send-each-other-anonymous-messages-the-app-has.jpg",
     link: "https://github.com/pjs-backend/saraha_project",
   },
 ];
