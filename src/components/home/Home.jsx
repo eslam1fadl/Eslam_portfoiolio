@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from './hero'
 import About from './About'
-import Skills from './skills'
+import Skills from './Skills'
 import FeaturedProjects from './Projects'
 import Contact from './Contact'
 
