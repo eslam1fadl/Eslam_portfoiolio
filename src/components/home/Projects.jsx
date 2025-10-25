@@ -65,32 +65,29 @@ const FeaturedProjects = () => {
         </p>
       </motion.div>
 
-      {/* Projects Grid */}
       <motion.div
-        className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3"
         variants={containerVariants}
         initial="hidden"
-        animate="visible"
+        whileInView="visible"
+        viewport={{ amount: 0.2 }}
+        className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3"
       >
         {projects.map((project) => (
           <motion.div
             key={project.id}
-            className="bg-[#1A1A2E] rounded-2xl shadow-lg overflow-hidden cursor-pointer"
             variants={cardVariants}
-            whileHover="hover"
+            whileHover={{ scale: 1.05, boxShadow: "0px 0px 25px #9D4EDD" }}
+            transition={{ duration: 0.3 }}
+            className="bg-[#1A1A2E] rounded-2xl shadow-lg overflow-hidden cursor-pointer"
           >
-            {project.image ? (
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover"
-              />
-            ) : (
-              <div className="w-full h-48 bg-gray-700 flex items-center justify-center text-gray-400 text-lg">
-                No Image
-              </div>
-            )}
-            <div className="p-6 flex flex-col justify-between h-[250px]">
+            <motion.img
+              src={project.image}
+              alt={project.title}
+              className="w-full h-48 object-cover"
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.4 }}
+            />
+            <div className="p-6 flex flex-col justify-between h-[230px]">
               <div>
                 <h3 className="text-xl font-bold text-[#FFB347] mb-2">
                   {project.title}
@@ -99,14 +96,15 @@ const FeaturedProjects = () => {
                   {project.description}
                 </p>
               </div>
-              <a
+              <motion.a
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
+                whileHover={{ scale: 1.05 }}
                 className="mt-4 bg-[#FFB347] text-[#0E0B16] px-4 py-2 rounded-full font-semibold text-sm w-fit hover:bg-[#ffca66] transition duration-300"
               >
                 View Project
-              </a>
+              </motion.a>
             </div>
           </motion.div>
         ))}

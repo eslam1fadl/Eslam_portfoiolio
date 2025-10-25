@@ -38,7 +38,6 @@ const Skills = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: index * 0.2 }}
           >
-            {/* Skill Name & Percentage */}
             <div className="flex justify-between items-center">
               <span className="text-base md:text-lg font-medium">{skill.name}</span>
               <span className="text-[#FFB347] font-semibold text-sm md:text-base">

@@ -39,7 +39,7 @@ const projects = [
     title: "Games Hub",
     description:
       "A fun games listing website displaying trending and popular games with categories and responsive design.",
-    image: "/images/100-best-games-hp-b.webp public/images/images (2).jpeg",
+    image: "/images/100-best-games-hp-b.webp",
     link: "https://eslam1fadl.github.io/Games/",
   },
   {
