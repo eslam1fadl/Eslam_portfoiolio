@@ -17,7 +17,7 @@ const projects = [
     description:
       "A complete e-commerce platform with login, product pages, cart system, and responsive UI using React and Redux.",
     image: "/images/images (1).jpeg",
-    link: "https://e-commerce2-qiu6.vercel.app/login",
+    link: "https://eccommerce-ebon.vercel.app/",
   },
   {
     id: 3,
