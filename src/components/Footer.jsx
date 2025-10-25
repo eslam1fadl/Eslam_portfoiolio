@@ -66,35 +66,29 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex gap-4 mt-4">
             <a
-              href="https://github.com/eslamfadl"
+              href="https://github.com/eslam1fadl"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FiGithub size={22} className="hover:text-[#FFB347] transition" />
             </a>
             <a
-              href="https://linkedin.com/in/eslam-fadl"
+              href="https://www.linkedin.com/in/eslam-fadl-4688742a9/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FiLinkedin size={22} className="hover:text-[#9D4EDD] transition" />
             </a>
+            
             <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FiTwitter size={22} className="hover:text-[#FFB347] transition" />
-            </a>
-            <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/eslam_fadl10?igsh=Yzd4Ync0MGl0a2Ft"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FiInstagram size={22} className="hover:text-[#9D4EDD] transition" />
             </a>
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/share/1PSh7usRVE/"
               target="_blank"
               rel="noopener noreferrer"
             >
