@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import img from "../../assets/Gemini_Generated_Image_9cr4g39cr4g39cr4.png";
 
 const AboutIntro = () => {
   return (
@@ -14,7 +13,7 @@ const AboutIntro = () => {
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <img
-          src={img}
+          src="/images/Gemini_Generated_Image_9cr4g39cr4g39cr4.png"
           alt="Eslam Fadl Profile"
           className="w-full h-full object-cover"
         />
