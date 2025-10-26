@@ -15,7 +15,7 @@ const ContactHeader = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.8, ease: "easeOut" }}
-          className="text-3xl md:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#9D4EDD] to-[#FFB347]"
+          className="text-3xl md:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#3B82F6] to-[#FFB347]"
         >
           Let’s Build Something Amazing Together
         </motion.h2>

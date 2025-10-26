@@ -15,7 +15,7 @@ const personalInfo = {
 const PersonalSection = () => {
     return (
         <section className="py-16 px-4 sm:px-6 md:px-16 text-white min-h-screen">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#9D4EDD] to-[#FFB347]">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#3B82F6] to-[#FFB347]">
                 Personal Info
             </h2>
 
@@ -56,7 +56,7 @@ const PersonalSection = () => {
                             href={personalInfo.github}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-[#9D4EDD] hover:underline break-all"
+                            className="text-[#3B82F6] hover:underline break-all"
                         >
                             {personalInfo.github}
                         </a>
@@ -68,7 +68,7 @@ const PersonalSection = () => {
                             href={personalInfo.linkedin}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-[#9D4EDD] hover:underline break-all"
+                            className="text-[#3B82F6] hover:underline break-all"
                         >
                             {personalInfo.linkedin}
                         </a>

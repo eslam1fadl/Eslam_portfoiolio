@@ -13,7 +13,7 @@ const HeaderSection = () => {
         className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight"
       >
         Hi, I'm{" "}
-        <span className="text-[#9D4EDD]">Eslam Fadl</span>
+        <span className="text-[#3B82F6]">Eslam Fadl</span>
       </motion.h1>
 
       {/* Subtitle */}
@@ -26,7 +26,7 @@ const HeaderSection = () => {
         A passionate{" "}
         <span className="text-[#FFB347] font-semibold">Front-End Developer</span>{" "}
         focused on building clean, interactive, and user-friendly web experiences using{" "}
-        <span className="text-[#9D4EDD] font-semibold">React</span> and modern technologies.
+        <span className="text-[#3B82F6] font-semibold">React</span> and modern technologies.
       </motion.p>
 
       {/* Call to Action Buttons */}
@@ -44,7 +44,7 @@ const HeaderSection = () => {
         </a>
         <NavLink
           to="/contact"
-          className="border-2 border-[#9D4EDD] text-[#9D4EDD] px-6 py-3 rounded-full text-lg font-semibold hover:bg-[#9D4EDD] hover:text-white transition duration-300"
+          className="border-2 border-[#3B82F6] text-[#3B82F6] px-6 py-3 rounded-full text-lg font-semibold hover:bg-[#3B82F6] hover:text-white transition duration-300"
         >
           Contact Me
         </NavLink>

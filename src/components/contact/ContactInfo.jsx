@@ -63,7 +63,7 @@ const ContactInfo = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-3xl md:text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#9D4EDD] to-[#FFB347]"
+          className="text-3xl md:text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#3B82F6] to-[#FFB347]"
         >
           Contact Information
         </motion.h3>
@@ -79,10 +79,10 @@ const ContactInfo = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.15 }}
-              className="bg-[#1A1A2E] p-6 rounded-2xl flex flex-col items-center text-center hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-[#9D4EDD]/20 cursor-pointer"
+              className="bg-[#1A1A2E] p-6 rounded-2xl flex flex-col items-center text-center hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-[#3B82F6]/20 cursor-pointer"
             >
               <div className="text-[#FFB347] mb-4">{info.icon}</div>
-              <h4 className="text-lg font-semibold text-[#9D4EDD] mb-1">
+              <h4 className="text-lg font-semibold text-[#3B82F6] mb-1">
                 {info.title}
               </h4>
               <p className="text-gray-300 text-sm">{info.value}</p>

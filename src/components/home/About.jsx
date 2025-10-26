@@ -16,10 +16,10 @@ const About = () => {
           
         >
           <img
-            src="/images/licensed-image.jpeg"
+            src="/images/Gemini_Generated_Image_5lu65m5lu65m5lu6.png"
             loading="lazy"
             alt="Galaxy"
-            className="rounded-2xl hover:scale-110 transition-transform ease-in-out duration-700 cursor-pointer w-full max-w-sm md:max-w-full shadow-lg shadow-[#9D4EDD]/40"
+            className="rounded-2xl hover:scale-110 transition-transform ease-in-out duration-700 cursor-pointer w-full max-w-sm md:max-w-full shadow-lg shadow-[#3B82F6]/40"
           />
         </motion.div>
 
@@ -30,17 +30,17 @@ const About = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          <h2 className="text-3xl md:text-5xl font-bold text-[#9D4EDD]">
+          <h2 className="text-3xl md:text-5xl font-bold text-[#3B82F6]">
             About Me
           </h2>
 
           <p className="tracking-wide text-base md:text-lg leading-relaxed">
             I’m <span className="text-[#FFB347] font-semibold">Eslam Fadl</span>, a passionate 
-            <span className="text-[#9D4EDD] font-semibold"> Front-End Developer</span> who loves crafting 
+            <span className="text-[#3B82F6] font-semibold"> Front-End Developer</span> who loves crafting 
             modern and responsive web interfaces using React, Tailwind, and Framer Motion.  
             Currently, I’m expanding my skills into the 
             <span className="text-[#FFB347] font-semibold"> Back-End world</span> with Node.js and Express 
-            to become a <span className="text-[#9D4EDD] font-semibold">Full-Stack Developer</span>.  
+            to become a <span className="text-[#3B82F6] font-semibold">Full-Stack Developer</span>.  
             I enjoy building real-world projects that merge creativity with functionality, 
             especially in medical and AI-driven web applications.
           </p>

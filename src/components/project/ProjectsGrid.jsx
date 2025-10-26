@@ -80,23 +80,28 @@ const containerVariants = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
-    transition: { staggerChildren: 0.3 },
+    transition: { staggerChildren: 0.2 },
   },
 };
 
 const cardVariants = {
-  hidden: { opacity: 0, y: 50 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" } },
+  hidden: { opacity: 0, y: 60 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, ease: "easeOut" },
+  },
 };
 
 const ProjectsGrid = () => {
   return (
     <section
       id="project"
-      className="bg-[#0E0B16] text-[#F8F9FA] py-16 px-6 md:px-20 min-h-screen"
+      className="bg-[#0E0B16] text-[#F8F9FA] py-16 px-4 sm:px-6 md:px-20 min-h-screen"
     >
+      {/* Section Header */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-5xl font-bold text-[#9D4EDD]">
+        <h2 className="text-3xl md:text-5xl font-bold text-[#3B82F6]">
           My Projects
         </h2>
         <p className="mt-4 text-lg text-gray-300">
@@ -104,25 +109,26 @@ const ProjectsGrid = () => {
         </p>
       </div>
 
+      {/* Projects Grid */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
         whileInView="show"
-        viewport={{ amount: 0.2 }}
-        className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3"
+        viewport={{ once: true, amount: 0.1 }}
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
       >
         {projects.map((project) => (
           <motion.div
             key={project.id}
             variants={cardVariants}
-            whileHover={{ scale: 1.05, boxShadow: "0px 0px 25px #9D4EDD" }}
+            whileHover={{ scale: 1.05, boxShadow: "0px 0px 25px #3B82F6" }}
             transition={{ duration: 0.3 }}
             className="bg-[#1A1A2E] rounded-2xl shadow-lg overflow-hidden cursor-pointer"
           >
             <motion.img
               src={project.image}
               alt={project.title}
-              className="w-full h-48 object-cover"
+              className="w-full h-56 object-cover"
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.4 }}
             />

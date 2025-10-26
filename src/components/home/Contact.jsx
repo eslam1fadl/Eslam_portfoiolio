@@ -7,7 +7,7 @@ const Contact = () => {
     <section className="bg-[#0E0B16] text-[#F8F9FA] py-20 px-6 text-center scroll min-h-screen flex flex-col justify-center">
       {/* Heading */}
       <motion.h2
-        className="text-3xl md:text-5xl font-bold mb-6 text-[#9D4EDD]"
+        className="text-3xl md:text-5xl font-bold mb-6 text-[#3B82F6]"
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -23,7 +23,7 @@ const Contact = () => {
         transition={{ duration: 0.8, delay: 0.3 }}
       >
         I'm <span className="text-[#FFB347] font-semibold">Eslam Fadl</span>, a
-        <span className="text-[#9D4EDD] font-semibold"> Frontend Developer</span>
+        <span className="text-[#3B82F6] font-semibold"> Frontend Developer</span>
         learning <span className="text-[#FFB347] font-semibold">Backend</span>
         to become full-stack. Let’s build something great together!
       </motion.p>

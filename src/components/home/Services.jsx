@@ -7,21 +7,21 @@ const services = [
     title: "Web Development",
     description:
       "Building responsive, high-performance websites and applications with modern technologies like React, Node.js, and Express.",
-    icon: <Code size={40} className="text-[#9D4EDD]" />,
+    icon: <Code size={40} className="text-[#3B82F6]" />,
   },
   {
     id: 2,
     title: "UI/UX Design",
     description:
       "Designing clean, user-friendly interfaces with focus on usability, accessibility, and modern design principles.",
-    icon: <Layout size={40} className="text-[#9D4EDD]" />,
+    icon: <Layout size={40} className="text-[#3B82F6]" />,
   },
   {
     id: 3,
     title: "Mobile-Friendly Solutions",
     description:
       "Creating mobile-first, responsive designs that work seamlessly across devices for the best user experience.",
-    icon: <Smartphone size={40} className="text-[#9D4EDD]" />,
+    icon: <Smartphone size={40} className="text-[#3B82F6]" />,
   },
 ]
 
@@ -30,7 +30,7 @@ const Services = () => {
     <section className="bg-[#0E0B16] text-[#F8F9FA] py-16 px-6 md:px-20 scroll min-h-screen">
       {/* Section Header */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-5xl font-bold text-[#9D4EDD]">
+        <h2 className="text-3xl md:text-5xl font-bold text-[#3B82F6]">
           My Services
         </h2>
         <p className="mt-4 text-lg text-gray-300">

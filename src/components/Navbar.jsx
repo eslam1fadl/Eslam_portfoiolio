@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="shadow flex items-center justify-between px-6 md:px-16 py-4 text-white top-0 fixed w-full z-10 bg-[#0E0B16]/90 backdrop-blur-md">
       {/* Logo */}
       <div
-        className="text-3xl md:text-4xl font-extrabold cursor-pointer bg-gradient-to-r from-[#9D4EDD] via-[#C77DFF] to-[#FFB347] bg-clip-text text-transparent 
+        className="text-3xl md:text-4xl font-extrabold cursor-pointer bg-gradient-to-r from-[#3B82F6]  to-[#FFB347] bg-clip-text text-transparent 
                    hover:scale-110 transition-transform duration-300 tracking-wide"
       >
         Eslam

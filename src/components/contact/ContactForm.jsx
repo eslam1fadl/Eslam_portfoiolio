@@ -41,7 +41,7 @@ const ContactForm = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-3xl md:text-4xl font-bold mb-10 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#9D4EDD] to-[#FFB347]"
+          className="text-3xl md:text-4xl font-bold mb-10 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#3B82F6] to-[#FFB347]"
         >
           Contact Me
         </motion.h3>
@@ -67,7 +67,7 @@ const ContactForm = () => {
         >
           {/* Name */}
           <div>
-            <label className="block text-sm font-semibold text-[#9D4EDD] mb-2">
+            <label className="block text-sm font-semibold text-[#3B82F6] mb-2">
               Name
             </label>
             <input
@@ -75,13 +75,13 @@ const ContactForm = () => {
               name="name"
               placeholder="Your name"
               required
-              className="w-full p-3 rounded-lg bg-[#0E0B16] text-white border border-[#9D4EDD] focus:outline-none focus:ring-2 focus:ring-[#FFB347] transition"
+              className="w-full p-3 rounded-lg bg-[#0E0B16] text-white border border-[#3B82F6] focus:outline-none focus:ring-2 focus:ring-[#FFB347] transition"
             />
           </div>
 
           {/* Email */}
           <div>
-            <label className="block text-sm font-semibold text-[#9D4EDD] mb-2">
+            <label className="block text-sm font-semibold text-[#3B82F6] mb-2">
               Email
             </label>
             <input
@@ -89,13 +89,13 @@ const ContactForm = () => {
               name="email"
               placeholder="Your email address"
               required
-              className="w-full p-3 rounded-lg bg-[#0E0B16] text-white border border-[#9D4EDD] focus:outline-none focus:ring-2 focus:ring-[#FFB347] transition"
+              className="w-full p-3 rounded-lg bg-[#0E0B16] text-white border border-[#3B82F6] focus:outline-none focus:ring-2 focus:ring-[#FFB347] transition"
             />
           </div>
 
           {/* Message */}
           <div>
-            <label className="block text-sm font-semibold text-[#9D4EDD] mb-2">
+            <label className="block text-sm font-semibold text-[#3B82F6] mb-2">
               Message
             </label>
             <textarea
@@ -103,7 +103,7 @@ const ContactForm = () => {
               rows="5"
               placeholder="Type your message..."
               required
-              className="w-full p-3 rounded-lg bg-[#0E0B16] text-white border border-[#9D4EDD] focus:outline-none focus:ring-2 focus:ring-[#FFB347] transition resize-none"
+              className="w-full p-3 rounded-lg bg-[#0E0B16] text-white border border-[#3B82F6] focus:outline-none focus:ring-2 focus:ring-[#FFB347] transition resize-none"
             ></textarea>
           </div>
 

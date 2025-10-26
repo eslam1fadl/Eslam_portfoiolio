@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Logo / Brand */}
         <div>
-          <h2 className="text-2xl font-bold text-[#9D4EDD]">Eslam Fadl</h2>
+          <h2 className="text-2xl font-bold text-[#3B82F6]">Eslam Fadl</h2>
           <p className="text-gray-400 mt-3 text-sm">
             Frontend Developer passionate about crafting modern and responsive web
             applications — currently learning Backend to become a Full-Stack Developer.
@@ -30,22 +30,22 @@ const Footer = () => {
           <h3 className="text-xl font-semibold text-[#FFB347] mb-4">Navigation</h3>
           <ul className="space-y-2">
             <li onClick={scrollToTop}>
-              <NavLink to="/" className="hover:text-[#9D4EDD] transition">
+              <NavLink to="/" className="hover:text-[#3B82F6] transition">
                 Home
               </NavLink>
             </li>
             <li onClick={scrollToTop}>
-              <NavLink to="/about" className="hover:text-[#9D4EDD] transition">
+              <NavLink to="/about" className="hover:text-[#3B82F6] transition">
                 About
               </NavLink>
             </li>
             <li onClick={scrollToTop}>
-              <NavLink to="/projects" className="hover:text-[#9D4EDD] transition">
+              <NavLink to="/projects" className="hover:text-[#3B82F6] transition">
                 Projects
               </NavLink>
             </li>
             <li onClick={scrollToTop}>
-              <NavLink to="/contact" className="hover:text-[#9D4EDD] transition">
+              <NavLink to="/contact" className="hover:text-[#3B82F6] transition">
                 Contact
               </NavLink>
             </li>
@@ -58,7 +58,7 @@ const Footer = () => {
           <p className="text-gray-300 text-sm">Email:</p>
           <a
             href="mailto:eslam.fadl2338@gmail.com"
-            className="text-[#9D4EDD] hover:underline text-sm"
+            className="text-[#3B82F6] hover:underline text-sm"
           >
             eslam.fadl2338@gmail.com
           </a>
@@ -77,7 +77,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FiLinkedin size={22} className="hover:text-[#9D4EDD] transition" />
+              <FiLinkedin size={22} className="hover:text-[#3B82F6] transition" />
             </a>
             
             <a
@@ -85,7 +85,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FiInstagram size={22} className="hover:text-[#9D4EDD] transition" />
+              <FiInstagram size={22} className="hover:text-[#3B82F6] transition" />
             </a>
             <a
               href="https://www.facebook.com/share/1PSh7usRVE/"
@@ -120,12 +120,12 @@ const Footer = () => {
               type="email"
               name="EMAIL"
               placeholder="Enter your email"
-              className="px-4 py-2 rounded-full bg-[#1A1A2E] border border-[#9D4EDD] text-sm focus:outline-none focus:ring-2 focus:ring-[#9D4EDD] flex-1"
+              className="px-4 py-2 rounded-full bg-[#1A1A2E] border border-[#3B82F6] text-sm focus:outline-none focus:ring-2 focus:ring-[#3B82F6] flex-1"
               required
             />
             <button
               type="submit"
-              className="bg-[#9D4EDD] hover:bg-[#7d3ac9] transition text-white px-6 py-2 rounded-full text-sm font-semibold"
+              className="bg-[#3B82F6] hover:bg-[#7d3ac9] transition text-white px-6 py-2 rounded-full text-sm font-semibold"
             >
               Subscribe
             </button>

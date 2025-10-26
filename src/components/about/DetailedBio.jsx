@@ -11,7 +11,7 @@ const DetailedBio = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#9D4EDD] mb-4 text-center sm:text-left">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#3B82F6] mb-4 text-center sm:text-left">
             My Journey
           </h3>
           <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-300">
@@ -36,7 +36,7 @@ const DetailedBio = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#9D4EDD] mb-4 text-center sm:text-left">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#3B82F6] mb-4 text-center sm:text-left">
             What I Do
           </h3>
           <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-300">
@@ -60,7 +60,7 @@ const DetailedBio = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#9D4EDD] mb-4 text-center sm:text-left">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#3B82F6] mb-4 text-center sm:text-left">
             Future Goals
           </h3>
           <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-300">

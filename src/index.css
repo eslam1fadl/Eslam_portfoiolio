@@ -4,7 +4,7 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&display=swap'); */
 body::selection {
-    background-color: #9D4EDD;
+    background-color: #3B82F6;
     color: #E7DFDD;
 }
 
@@ -16,7 +16,7 @@ body::selection {
 }
 
 .primary {
-    color: #9D4EDD;
+    color:#3B82F6;
 }
 
 .highlight {

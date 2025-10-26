@@ -21,7 +21,7 @@ const Loader = () => {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-[#0E0B16] z-50">
-      <div className="w-16 h-16 border-4 border-[#9D4EDD] border-t-[#FFB347] rounded-full animate-spin"></div>
+      <div className="w-16 h-16 border-4 border-[#3B82F6] border-t-[#FFB347] rounded-full animate-spin"></div>
     </div>
   );
 };

@@ -43,7 +43,7 @@ const Experience = () => {
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#9D4EDD] to-[#FFB347]"
+        className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#3B82F6] to-[#FFB347]"
       >
         My Experience
       </motion.h2>
@@ -56,7 +56,7 @@ const Experience = () => {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: index * 0.2 }}
-            className="bg-[#161024] p-6 rounded-2xl shadow-lg hover:shadow-[#9D4EDD]/30 transition-shadow sm:flex sm:justify-between sm:items-start sm:gap-6"
+            className="bg-[#161024] p-6 rounded-2xl shadow-lg hover:shadow-[#3B82F6]/30 transition-shadow sm:flex sm:justify-between sm:items-start sm:gap-6"
           >
             {/* Left Column */}
             <div className="sm:w-1/3 mb-4 sm:mb-0">

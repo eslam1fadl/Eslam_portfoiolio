@@ -57,7 +57,7 @@ const FeaturedProjects = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h2 className="text-3xl md:text-5xl font-bold text-[#9D4EDD]">
+        <h2 className="text-3xl md:text-5xl font-bold text-[#3B82F6]">
           Featured Projects
         </h2>
         <p className="mt-4 text-lg text-gray-300">
@@ -76,7 +76,7 @@ const FeaturedProjects = () => {
           <motion.div
             key={project.id}
             variants={cardVariants}
-            whileHover={{ scale: 1.05, boxShadow: "0px 0px 25px #9D4EDD" }}
+            whileHover={{ scale: 1.05, boxShadow: "0px 0px 25px #3B82F6" }}
             transition={{ duration: 0.3 }}
             className="bg-[#1A1A2E] rounded-2xl shadow-lg overflow-hidden cursor-pointer"
           >
