@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const personalInfo = {
     name: "Eslam Fadl",
-    email: "eslamfadl.dev@gmail.com",
+    email: "eslam.fadl2338@gmail.com",
     location: "Egypt",
     github: "https://github.com/eslam1fadl",
     linkedin: "https://www.linkedin.com/in/eslam-fadl-4688742a9/",
