@@ -25,7 +25,7 @@ const DetailedBio = () => {
             complete interactive applications. Now, I’m expanding my knowledge
             by studying{" "}
             <span className="text-[#FFB347] font-semibold">Back-End
-            development</span> to understand how servers, databases, and APIs
+              development</span> to understand how servers, databases, and APIs
             power the web.
           </p>
         </motion.div>
@@ -40,19 +40,19 @@ const DetailedBio = () => {
             What I Do
           </h3>
           <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-300">
-            I specialize in building responsive and user-friendly web
-            interfaces. I mainly work with{" "}
+            I’m a <span className="text-[#FFB347] font-semibold">Front-End Developer </span>
+            specializing in building responsive and scalable web applications.
+            I work with modern technologies like{" "}
             <span className="text-[#FFB347] font-semibold">React.js</span>,{" "}
+            <span className="text-[#FFB347] font-semibold">JavaScript (ES6+)</span>,{" "}
             <span className="text-[#FFB347] font-semibold">Tailwind CSS</span>,{" "}
-            and modern tools to bring ideas to life. Currently, I’m developing a{" "}
-            <span className="text-[#FFB347] font-semibold">
-              medical website for my graduation project
-            </span>{" "}
-            — featuring AI-based diagnosis, appointment booking, and doctor–
-            patient communication. I love transforming complex ideas into
-            seamless, real-world web experiences.
+            and <span className="text-[#FFB347] font-semibold">Bootstrap</span>{" "}
+            to deliver clean, maintainable, and high-performance user interfaces.
+            I focus on writing clean code, optimizing performance, and ensuring cross-browser
+            compatibility while integrating RESTful APIs to build complete, real-world applications.
           </p>
         </motion.div>
+
 
         {/* Future Goals */}
         <motion.div
