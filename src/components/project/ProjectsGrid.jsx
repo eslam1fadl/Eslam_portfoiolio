@@ -20,6 +20,14 @@ const projects = [
   },
   {
     id: 3,
+    title: "travel-site",
+    description:
+      "Nomadica – Travel landing page built with Next.js, showcasing top destinations with modern design and smooth animations.",
+    image: "/images/beach.png",
+    link: "https://travel-site-aqbl.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Movies App",
     description:
       "A movie browsing app that fetches real-time data from an API, with search, filtering, and detailed pages built using React.",
@@ -27,7 +35,7 @@ const projects = [
     link: "https://movies-nine-lovat.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Medical Website (Graduation Project)",
     description:
       "Graduation project — a medical platform that allows patients to book appointments, consult doctors online, and check medicine conflicts.",
@@ -35,7 +43,7 @@ const projects = [
     link: "https://g-project-two.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Games Hub",
     description:
       "A fun games listing website displaying trending and popular games with categories and responsive design.",
@@ -43,7 +51,7 @@ const projects = [
     link: "https://eslam1fadl.github.io/Games/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Global Weather App",
     description:
       "A weather app that provides real-time weather updates for any city worldwide using OpenWeather API.",
@@ -51,7 +59,7 @@ const projects = [
     link: "https://eslam1fadl.github.io/Global-Weather/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Daniels Portfolio",
     description:
       "A responsive personal portfolio template built with HTML, CSS, and JavaScript showcasing animations and sections.",
@@ -59,7 +67,7 @@ const projects = [
     link: "https://eslam1fadl.github.io/Daniels/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Notes Backend API",
     description:
       "A Node.js and Express backend project for managing notes with CRUD operations and MongoDB integration.",
@@ -67,7 +75,7 @@ const projects = [
     link: "https://github.com/pjs-backend/project_notes",
   },
   {
-    id: 9,
+    id: 10,
     title: "Saraha Clone Backend",
     description:
       "A backend system built with Express and MongoDB that mimics the Saraha anonymous messaging platform.",
