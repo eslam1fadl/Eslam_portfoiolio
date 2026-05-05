@@ -13,7 +13,7 @@ const About = () => {
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          
+
         >
           <img
             src="/images/Gemini_Generated_Image_5lu65m5lu65m5lu6.png"
@@ -35,14 +35,18 @@ const About = () => {
           </h2>
 
           <p className="tracking-wide text-base md:text-lg leading-relaxed">
-            I’m <span className="text-[#FFB347] font-semibold">Eslam Fadl</span>, a passionate 
-            <span className="text-[#3B82F6] font-semibold"> Front-End Developer</span> who loves crafting 
-            modern and responsive web interfaces using React, Tailwind, and Framer Motion.  
-            Currently, I’m expanding my skills into the 
-            <span className="text-[#FFB347] font-semibold"> Back-End world</span> with Node.js and Express 
-            to become a <span className="text-[#3B82F6] font-semibold">Full-Stack Developer</span>.  
-            I enjoy building real-world projects that merge creativity with functionality, 
+            I’m <span className="text-[#FFB347] font-semibold">Eslam Fadl</span>, a passionate
+            <span className="text-[#3B82F6] font-semibold"> Front-End Developer</span> who loves crafting
+            modern and responsive web interfaces using React, Tailwind, and Framer Motion.
+            Currently, I’m expanding my skills into the
+            <span className="text-[#FFB347] font-semibold"> Back-End world</span> with Node.js and Express
+            to become a <span className="text-[#3B82F6] font-semibold">Full-Stack Developer</span>.
+            I enjoy building real-world projects that merge creativity with functionality,
             especially in medical and AI-driven web applications.
+            <br /><br />
+            I’m currently working remotely at
+            <span className="text-[#FFB347] font-semibold"> IonBit</span> as a Front-End Developer,
+            where I contribute to building scalable and modern web applications.
           </p>
 
           <motion.div

@@ -33,6 +33,17 @@ const experiences = [
       a professional development team to contribute my skills, grow technically, and collaborate 
       on innovative projects.`,
   },
+  {
+  role: "Frontend Developer",
+  company: "IonBit (Remote)",
+  duration: "2026 - Present",
+  description: `
+    I am currently working remotely at IonBit as a Front-End Developer,
+    where I contribute to building modern, scalable, and responsive web applications
+    using React, Tailwind CSS, and modern JavaScript practices. 
+    I collaborate with the team to deliver high-quality UI/UX experiences and optimize performance across projects.
+  `,
+},
 ];
 
 const Experience = () => {
