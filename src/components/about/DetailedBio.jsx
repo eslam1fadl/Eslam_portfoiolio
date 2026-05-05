@@ -73,6 +73,12 @@ const DetailedBio = () => {
             </span>
             , collaborate with talented teams, and keep learning new
             technologies that push me forward as a developer.
+
+            <br /><br />
+
+            One of my long-term goals is to work at{" "}
+            <span className="text-[#3B82F6] font-semibold">Microsoft</span> as a software engineer,
+            where I can contribute to building scalable and impactful global products.
           </p>
         </motion.div>
       </div>
