@@ -14,7 +14,7 @@ const projects = [
     title: "Agency Website",
     description:
       "Modern digital agency website built with React and Tailwind CSS, featuring smooth animations and a responsive layout.",
-    image: "/images/images.jpeg",
+    image: "https://g.top4top.io/p_3782m3vtq1.jpg",
     link: "https://agency-iota-lemon.vercel.app/",
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     title: "E-Commerce Website",
     description:
       "A complete e-commerce platform with login, product pages, cart system, and responsive UI using React and Redux.",
-    image: "/images/images (1).jpeg",
+    image: "https://b.top4top.io/p_3782ukwzn1.jpg",
     link: "https://eccommerce-ebon.vercel.app/",
   },
   {
@@ -30,7 +30,7 @@ const projects = [
     title: "travel-site",
     description:
       "Nomadica – Travel landing page built with Next.js, showcasing top destinations with modern design and smooth animations.",
-    image: "/images/beach.png",
+    image: "https://l.top4top.io/p_3782smzuv1.png",
     link: "https://travel-site-aqbl.vercel.app/",
   },
   {
@@ -46,7 +46,7 @@ const projects = [
     title: "Medical Website (Graduation Project)",
     description:
       "Graduation project — a medical platform that allows patients to book appointments, consult doctors online, and check medicine conflicts.",
-    image: "/images/images (2).jpeg",
+    image: "https://j.top4top.io/p_37826gggh1.jpg",
     link: "https://g-project-two.vercel.app/",
   },
   {
@@ -62,7 +62,7 @@ const projects = [
     title: "Global Weather App",
     description:
       "A weather app that provides real-time weather updates for any city worldwide using OpenWeather API.",
-    image: "/images/изображение_2023-11-15_143610436-1024x576.jpg",
+    image: "https://e.top4top.io/p_378205ew01.jpg",
     link: "https://eslam1fadl.github.io/Global-Weather/",
   },
   {
