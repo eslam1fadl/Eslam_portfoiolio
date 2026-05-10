@@ -12,7 +12,7 @@ const Loader = () => {
     const timer = setTimeout(() => {
       setLoading(false);
       window.scrollTo({ top: 0, behavior: "smooth" });
-    }, 400); // ⏳ مدة التحميل 0.4 ثانية (ممكن تزودها لو عايز)
+    }, 400);
 
     return () => clearTimeout(timer);
   }, [location]);

@@ -20,8 +20,8 @@ const Footer = () => {
         <div>
           <h2 className="text-2xl font-bold text-[#3B82F6]">Eslam Fadl</h2>
           <p className="text-gray-400 mt-3 text-sm">
-            Frontend Developer passionate about crafting modern and responsive web
-            applications — currently learning Backend to become a Full-Stack Developer.
+            Full-Stack Developer passionate about building modern, responsive, and scalable web applications using both frontend and backend technologies.
+
           </p>
         </div>
 
@@ -79,7 +79,7 @@ const Footer = () => {
             >
               <FiLinkedin size={22} className="hover:text-[#3B82F6] transition" />
             </a>
-            
+
             <a
               href="https://www.instagram.com/eslam_fadl10?igsh=Yzd4Ync0MGl0a2Ft"
               target="_blank"
