@@ -7,7 +7,7 @@ const projects = [
   title: "Clinic Management System",
  description:
     "A desktop clinic management system for managing patients, appointments, payments, inventory, and WhatsApp reminders with role-based access and financial tracking.",  image: "https://f.top4top.io/p_378171z9h1.png",
-  link: "https://www.veed.io/view/6a6b04f6-da3b-4592-8c43-a833d25f9423?panel=&source=landingPage",
+  link: "https://drive.google.com/file/d/1LHPqEyTOPvyoC4c6mANjwtdeGkjZKLlj/view?usp=sharing",
 },
   {
     id: 1,
