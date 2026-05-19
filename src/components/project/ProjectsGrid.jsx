@@ -3,12 +3,13 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-  id:0,
-  title: "Clinic Management System",
- description:
-    "A desktop clinic management system for managing patients, appointments, payments, inventory, and WhatsApp reminders with role-based access and financial tracking.",  image: "https://f.top4top.io/p_378171z9h1.png",
-  link: "https://drive.google.com/file/d/1LHPqEyTOPvyoC4c6mANjwtdeGkjZKLlj/view?usp=sharing",
-},
+    id: 0,
+    title: "Clinic Management System",
+    description:
+      "A desktop clinic management system for managing patients, appointments, payments, inventory, and WhatsApp reminders with role-based access and financial tracking.",
+    image: "https://f.top4top.io/p_378171z9h1.png",
+    link: "https://drive.google.com/file/d/1LHPqEyTOPvyoC4c6mANjwtdeGkjZKLlj/view?usp=sharing",
+  },
   {
     id: 1,
     title: "Agency Website",
@@ -62,7 +63,7 @@ const projects = [
     title: "Global Weather App",
     description:
       "A weather app that provides real-time weather updates for any city worldwide using OpenWeather API.",
-    image: "https://e.top4top.io/p_378205ew01.jpg",
+    image: "https://i.ibb.co/VY09fD6S/com-precisedefend-vitiaz-icon-2023-09-21-21-55-05.png",
     link: "https://eslam1fadl.github.io/Global-Weather/",
   },
   {
