@@ -16,15 +16,15 @@ const projects = [
     title: "E-Commerce Website",
     description:
       "Graduation project for the Front-End Development Diploma at Route Academy. An e-commerce platform built with React and Redux",
-      image: "https://i.ibb.co/8gdnPzkc/showing-cart-trolley-shopping-online-sign-graphic-53876-133967.avif",
+    image: "https://i.ibb.co/8gdnPzkc/showing-cart-trolley-shopping-online-sign-graphic-53876-133967.avif",
     link: "https://eccommerce-ebon.vercel.app/",
   },
   {
     id: 3,
     title: "Medical Website (Graduation Project)",
     description:
-  "Graduation project at the Faculty of Science, Minya University. A modern travel website built with React.js",   
-   image: "https://i.ibb.co/27Pk3HRd/special-img.jpg",
+      "Graduation project at the Faculty of Science, Minya University. A modern travel website built with React.js",
+    image: "https://i.ibb.co/27Pk3HRd/special-img.jpg",
     link: "https://g-project-two.vercel.app/",
   }
 ];
@@ -61,7 +61,7 @@ const FeaturedProjects = () => {
           Featured Projects
         </h2>
         <p className="mt-4 text-lg text-gray-300">
-          A selection of projects I’ve worked on recently
+          A selection of projects I've worked on recently
         </p>
       </motion.div>
 
@@ -80,12 +80,16 @@ const FeaturedProjects = () => {
             transition={{ duration: 0.3 }}
             className="bg-[#1A1A2E] rounded-2xl shadow-lg overflow-hidden cursor-pointer"
           >
-            <motion.img
+            <img
               src={project.image}
               alt={project.title}
               className="w-full h-48 object-cover"
-              whileHover={{ scale: 1.1 }}
-              transition={{ duration: 0.4 }}
+              referrerPolicy="no-referrer"
+              loading="eager"
+              onError={(e) => {
+                e.currentTarget.onerror = null;
+                e.currentTarget.src = "/images/fallback.jpg";
+              }}
             />
             <div className="p-6 flex flex-col justify-between h-[230px]">
               <div>
