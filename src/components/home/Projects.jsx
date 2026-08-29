@@ -16,8 +16,7 @@ const projects = [
     title: "E-Commerce Website",
     description:
       "Graduation project for the Front-End Development Diploma at Route Academy. An e-commerce platform built with React and Redux",
-   image:
-      "https://i.ibb.co/8gdnPzkc/showing-cart-trolley-shopping-online-sign-graphic-53876-133967.avif",
+      image: "https://i.ibb.co/8gdnPzkc/showing-cart-trolley-shopping-online-sign-graphic-53876-133967.avif",
     link: "https://eccommerce-ebon.vercel.app/",
   },
   {
@@ -25,7 +24,7 @@ const projects = [
     title: "Medical Website (Graduation Project)",
     description:
   "Graduation project at the Faculty of Science, Minya University. A modern travel website built with React.js",   
-    image: "https://i.ibb.co/27Pk3HRd/special-img.jpg",
+   image: "https://i.ibb.co/27Pk3HRd/special-img.jpg",
     link: "https://g-project-two.vercel.app/",
   }
 ];
