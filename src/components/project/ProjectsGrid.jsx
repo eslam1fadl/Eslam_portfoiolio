@@ -7,7 +7,7 @@ const projects = [
     title: "Clinic Management System",
     description:
       "A desktop clinic management system for managing patients, appointments, payments, inventory, and WhatsApp reminders with role-based access and financial tracking.",
-    image: "https://f.top4top.io/p_378171z9h1.png",
+    image: "https://i.ibb.co/tRhCY47/17341122421585.png",
     link: "https://drive.google.com/file/d/1LHPqEyTOPvyoC4c6mANjwtdeGkjZKLlj/view?usp=sharing",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     title: "E-Commerce Website",
     description:
       "A complete e-commerce platform with login, product pages, cart system, and responsive UI using React and Redux.",
-    image: "https://b.top4top.io/p_3782ukwzn1.jpg",
+    image: "https://i.ibb.co/8gdnPzkc/showing-cart-trolley-shopping-online-sign-graphic-53876-133967.avif",
     link: "https://eccommerce-ebon.vercel.app/",
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     title: "travel-site",
     description:
       "Nomadica – Travel landing page built with Next.js, showcasing top destinations with modern design and smooth animations.",
-    image: "https://l.top4top.io/p_3782smzuv1.png",
+    image: "https://i.ibb.co/gZD9d9n0/globaltravelandtourism.jpg",
     link: "https://travel-site-aqbl.vercel.app/",
   },
   {
@@ -47,7 +47,7 @@ const projects = [
     title: "Medical Website (Graduation Project)",
     description:
       "Graduation project — a medical platform that allows patients to book appointments, consult doctors online, and check medicine conflicts.",
-    image: "https://j.top4top.io/p_37826gggh1.jpg",
+    image: "https://i.ibb.co/27Pk3HRd/special-img.jpg",
     link: "https://g-project-two.vercel.app/",
   },
   {
