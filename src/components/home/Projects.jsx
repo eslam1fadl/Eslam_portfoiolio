@@ -15,16 +15,17 @@ const projects = [
     id: 2,
     title: "E-Commerce Website",
     description:
-      "A complete e-commerce platform with login, product pages, cart system, and responsive UI using React and Redux.",
-    image: "https://b.top4top.io/p_3782ukwzn1.jpg",
+      "Graduation project for the Front-End Development Diploma at Route Academy. An e-commerce platform built with React and Redux",
+   image:
+      "https://i.ibb.co/8gdnPzkc/showing-cart-trolley-shopping-online-sign-graphic-53876-133967.avif",
     link: "https://eccommerce-ebon.vercel.app/",
   },
   {
     id: 3,
     title: "Medical Website (Graduation Project)",
     description:
-      "Graduation project — a medical platform that allows patients to book appointments, consult doctors online, and check medicine conflicts.",
-    image: "https://j.top4top.io/p_37826gggh1.jpg",
+  "Graduation project at the Faculty of Science, Minya University. A modern travel website built with React.js",   
+    image: "https://i.ibb.co/27Pk3HRd/special-img.jpg",
     link: "https://g-project-two.vercel.app/",
   }
 ];
