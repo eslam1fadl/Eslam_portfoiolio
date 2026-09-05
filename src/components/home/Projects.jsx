@@ -13,11 +13,11 @@ const projects = [
   },
   {
     id: 2,
-    title: "E-Commerce Website",
+    title: "Basta E-Commerce Platform",
     description:
-      "Graduation project for the Front-End Development Diploma at Route Academy. An e-commerce platform built with React and Redux",
-    image: "https://i.ibb.co/8gdnPzkc/showing-cart-trolley-shopping-online-sign-graphic-53876-133967.avif",
-    link: "https://eccommerce-ebon.vercel.app/",
+      "A production e-commerce platform developed at Ionbit, featuring a responsive interface, Zustand state management, and RESTful API integration. Currently in the testing phase.",
+    image: "https://i.ibb.co/MkF42PjP/21424887.jpg",
+    link: "https://bs6a.com/",
   },
   {
     id: 3,

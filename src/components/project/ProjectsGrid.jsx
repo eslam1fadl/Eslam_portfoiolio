@@ -20,11 +20,11 @@ const projects = [
   },
   {
     id: 2,
-    title: "E-Commerce Website",
+    title: "Basta E-Commerce Platform",
     description:
-      "Graduation project for the Front-End Development Diploma at Route Academy. An e-commerce platform built with React and Redux",
-       image: "https://i.ibb.co/8gdnPzkc/showing-cart-trolley-shopping-online-sign-graphic-53876-133967.avif",
-    link: "https://eccommerce-ebon.vercel.app/",
+      "A production e-commerce platform developed at Ionbit, featuring a responsive interface, Zustand state management, and RESTful API integration. Currently in the testing phase.",
+    image: "https://i.ibb.co/MkF42PjP/21424887.jpg",
+    link: "https://bs6a.com/",
   },
   {
     id: 3,
@@ -36,6 +36,15 @@ const projects = [
   },
   {
     id: 4,
+    title: "E-Commerce Website",
+    description:
+      "Graduation project for the Front-End Development Diploma at Route Academy. An e-commerce platform built with React and Redux",
+       image: "https://i.ibb.co/8gdnPzkc/showing-cart-trolley-shopping-online-sign-graphic-53876-133967.avif",
+    link: "https://eccommerce-ebon.vercel.app/",
+  },
+  
+  {
+    id: 5,
     title: "Movies App",
     description:
       "A movie browsing app that fetches real-time data from an API, with search, filtering, and detailed pages built using React.",
@@ -43,7 +52,7 @@ const projects = [
     link: "https://movies-nine-lovat.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Medical Website (Graduation Project)",
     description:
   "Graduation project at the Faculty of Science, Minya University. A modern travel website built with React.js",   
@@ -51,7 +60,7 @@ const projects = [
     link: "https://g-project-two.vercel.app/",
   },
   {
-    id: 6,
+    id:7,
     title: "Games Hub",
     description:
       "A fun games listing website displaying trending and popular games with categories and responsive design.",
@@ -59,7 +68,7 @@ const projects = [
     link: "https://eslam1fadl.github.io/Games/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Global Weather App",
     description:
       "A weather app that provides real-time weather updates for any city worldwide using OpenWeather API.",
@@ -67,7 +76,7 @@ const projects = [
     link: "https://eslam1fadl.github.io/Global-Weather/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Daniels Portfolio",
     description:
       "A responsive personal portfolio template built with HTML, CSS, and JavaScript showcasing animations and sections.",
@@ -75,7 +84,7 @@ const projects = [
     link: "https://eslam1fadl.github.io/Daniels/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Notes Backend API",
     description:
       "A Node.js and Express backend project for managing notes with CRUD operations and MongoDB integration.",
@@ -83,7 +92,7 @@ const projects = [
     link: "https://github.com/pjs-backend/project_notes",
   },
   {
-    id: 10,
+    id: 11,
     title: "Saraha Clone Backend",
     description:
       "A backend system built with Express and MongoDB that mimics the Saraha anonymous messaging platform.",
