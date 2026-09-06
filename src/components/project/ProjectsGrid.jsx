@@ -28,6 +28,14 @@ const projects = [
   },
   {
     id: 3,
+    title: "Medical Website (Graduation Project)",
+    description:
+  "Graduation project at the Faculty of Science, Minya University. A modern travel website built with React.js",   
+   image: "https://i.ibb.co/27Pk3HRd/special-img.jpg",
+    link: "https://g-project-two.vercel.app/",
+  },
+  {
+    id: 4,
     title: "travel-site",
     description:
       "Nomadica – Travel landing page built with Next.js, showcasing top destinations with modern design and smooth animations.",
@@ -35,7 +43,7 @@ const projects = [
     link: "https://travel-site-aqbl.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "E-Commerce Website",
     description:
       "Graduation project for the Front-End Development Diploma at Route Academy. An e-commerce platform built with React and Redux",
@@ -44,21 +52,14 @@ const projects = [
   },
   
   {
-    id: 5,
+    id: 6,
     title: "Movies App",
     description:
       "A movie browsing app that fetches real-time data from an API, with search, filtering, and detailed pages built using React.",
     image: "/images/e92ed228a6924420a8963bdc6c9ddef1.webp",
     link: "https://movies-nine-lovat.vercel.app/",
   },
-  {
-    id: 6,
-    title: "Medical Website (Graduation Project)",
-    description:
-  "Graduation project at the Faculty of Science, Minya University. A modern travel website built with React.js",   
-   image: "https://i.ibb.co/27Pk3HRd/special-img.jpg",
-    link: "https://g-project-two.vercel.app/",
-  },
+  
   {
     id:7,
     title: "Games Hub",
