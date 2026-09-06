@@ -40,7 +40,7 @@ const projects = [
     description:
       "Graduation project for the Front-End Development Diploma at Route Academy. An e-commerce platform built with React and Redux",
        image: "https://i.ibb.co/8gdnPzkc/showing-cart-trolley-shopping-online-sign-graphic-53876-133967.avif",
-    link: "https://eccommerce-ebon.vercel.app/",
+    link: "https://ecommerce-wheat-eight-45.vercel.app/",
   },
   
   {
