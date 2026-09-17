@@ -17,17 +17,19 @@ const HeaderSection = () => {
       </motion.h1>
 
       {/* Subtitle */}
-      <motion.p
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 0.3 }}
-        className="mt-6 text-lg sm:text-xl md:text-2xl max-w-2xl text-gray-300"
-      >
-        A passionate{" "}
-        <span className="text-[#FFB347] font-semibold">Front-End Developer</span>{" "}
-        focused on building clean, interactive, and user-friendly web experiences using{" "}
-        <span className="text-[#3B82F6] font-semibold">React</span> and modern technologies.
-      </motion.p>
+     <motion.p
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1, delay: 0.3 }}
+  className="mt-6 text-lg sm:text-xl md:text-2xl max-w-2xl text-gray-300"
+>
+  A passionate{" "}
+  <span className="text-[#FFB347] font-semibold">Front-End Developer</span>{" "}
+  focused on building clean, interactive, and user-friendly web experiences
+  using <span className="text-[#3B82F6] font-semibold">React</span> and Next.js,
+  with hands-on experience building full-stack applications using the{" "}
+  <span className="text-[#FFB347] font-semibold">MERN Stack</span>.
+</motion.p>
 
       {/* Call to Action Buttons */}
       <motion.div

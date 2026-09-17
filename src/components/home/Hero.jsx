@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Hero = () => {
   return (
     <section className="text-white min-h-screen flex flex-col justify-center items-center text-center px-6 scroll">
-      
+
       {/* Heading */}
       <motion.h1
         className="text-4xl md:text-6xl font-extrabold mb-4 leading-tight"
@@ -23,10 +23,12 @@ const Hero = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.3 }}
       >
-        A <span className="text-[#FFB347]">Front-End Developer</span> passionate about 
-        creating clean, modern, and interactive web experiences using 
-        <span className="text-[#3B82F6]"> React</span> & the latest web technologies. <br />
-       
+        A <span className="text-[#FFB347]">Front-End Developer</span> focused on
+        building clean, modern, and interactive web experiences with
+        <span className="text-[#3B82F6]"> React</span> and Next.js,
+        with hands-on experience building full-stack applications using the
+        <span className="text-[#FFB347]"> MERN Stack</span>. <br />
+
       </motion.p>
 
       {/* Button Section */}

@@ -7,21 +7,35 @@ import {
   FaReact,
   FaNodeJs,
   FaGitAlt,
+  FaLayerGroup,
+  FaCode,
 } from "react-icons/fa";
-import { SiBootstrap, SiExpress, SiMongodb, SiMysql, SiPostman, SiTailwindcss } from "react-icons/si";
+
+import {
+  SiBootstrap,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiExpress,
+  SiMongodb,
+  SiMysql,
+  SiPostman,
+} from "react-icons/si";
 
 const skills = [
   { name: "HTML", icon: <FaHtml5 className="text-[#E34F26]" /> },
   { name: "CSS", icon: <FaCss3Alt className="text-[#1572B6]" /> },
-  { name: "Bootstrap", icon: <SiBootstrap className="text-[#7952B3]" /> },
   { name: "JavaScript", icon: <FaJs className="text-[#F7DF1E]" /> },
   { name: "React", icon: <FaReact className="text-[#61DAFB]" /> },
+  { name: "Next.js", icon: <SiNextdotjs className="text-white" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-[#06B6D4]" /> },
+  { name: "Bootstrap", icon: <SiBootstrap className="text-[#7952B3]" /> },
+{ name: "Zustand", icon: <FaLayerGroup className="text-orange-400" /> },
   { name: "Node.js", icon: <FaNodeJs className="text-[#68A063]" /> },
   { name: "Express.js", icon: <SiExpress className="text-gray-300" /> },
   { name: "MongoDB", icon: <SiMongodb className="text-[#4DB33D]" /> },
   { name: "MySQL", icon: <SiMysql className="text-[#00758F]" /> },
-    { name: "Postman", icon: <SiPostman className="text-[#12927F]" /> },
+{ name: "REST APIs", icon: <FaCode className="text-[#61DAFB]" /> },
+  { name: "Postman", icon: <SiPostman className="text-[#FF6C37]" /> },
   { name: "Git & GitHub", icon: <FaGitAlt className="text-[#F05033]" /> },
 ];
 

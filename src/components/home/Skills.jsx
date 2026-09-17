@@ -7,14 +7,18 @@ import {
   FaNodeJs,
   FaBootstrap,
   FaGitAlt,
+  FaLayerGroup,
 } from "react-icons/fa";
-import { SiTailwindcss, SiJavascript, SiExpress } from "react-icons/si";
+import { SiTailwindcss, SiJavascript, SiExpress, SiNextdotjs } from "react-icons/si";
 
 const skills = [
   { name: "HTML", icon: <FaHtml5 className="text-[#E34F26]" /> },
   { name: "CSS", icon: <FaCss3Alt className="text-[#1572B6]" /> },
   { name: "JavaScript", icon: <SiJavascript className="text-[#F7DF1E]" /> },
   { name: "React.js", icon: <FaReact className="text-[#61DAFB]" /> },
+  { name: "Zustand", icon: <FaLayerGroup className="text-orange-400" /> },
+    { name: "Next.js", icon: <SiNextdotjs className="text-white" /> },
+
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-[#38BDF8]" /> },
   { name: "Bootstrap", icon: <FaBootstrap className="text-[#7952B3]" /> },
   { name: "Node.js", icon: <FaNodeJs className="text-[#339933]" /> },

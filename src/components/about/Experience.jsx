@@ -1,50 +1,40 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
 const experiences = [
   {
+    role: "MERN Stack Developer",
+    company: "Route Academy",
+    duration: "2024 - 2025",
+    description: `
+      I build full-stack web applications using the MERN stack, with a strong focus on
+      React.js, Next.js, Node.js, Express.js, and MongoDB. I develop responsive and
+      user-friendly interfaces, build RESTful APIs, implement server-side logic, and
+      integrate front-end and back-end systems to create complete, scalable web solutions.
+    `,
+  },
+  {
+    role: "Education",
+    company: "Minia University – Faculty of Science, IT Department",
+    duration: "2021 - 2025",
+    description: `
+      I graduated from the Department of Information Technology, Faculty of Science, Minia University in 2025, building a strong foundation in software development, web technologies, and information technology.
+    `,
+  },
+  {
     role: "Frontend Developer",
-    company: "Personal Projects & Route Academy",
-    duration: "2024 - Present",
+    company: "IonBit (Remote)",
+    duration: "2026 - Present",
     description: `
-      I am a front-end developer passionate about building interactive and scalable web applications 
-      using modern technologies. I specialize in creating responsive, user-friendly interfaces with 
-      React.js, Next.js, JavaScript (ES6+), Tailwind CSS, and Bootstrap — ensuring smooth, optimized, 
-      and accessible designs across all devices.`,
+      I work remotely as a Frontend Developer at IonBit, contributing to real-world
+      web applications using React.js, Tailwind CSS, and modern JavaScript.
+      I focus on building responsive user interfaces, reusable components,
+      and maintaining a smooth and consistent user experience across projects.
+    `,
   },
-  {
-    role: "Backend Developer (Node.js & Express.js)",
-    company: "Self-Learning & MERN Stack Projects",
-    duration: "2025 - Present",
-    description: `
-      In addition to front-end development, I have strong backend experience using Node.js and Express.js. 
-      I work on building RESTful APIs, designing server-side logic, and managing databases with MongoDB, 
-      including schema design and data modeling. I enjoy integrating front-end and back-end applications 
-      to deliver complete, full-stack web solutions.`,
-  },
-  {
-    role: "Education & Training",
-    company: "Route Academy & Minia University",
-    duration: "2025 - 2025",
-    description: `
-      I earned a diploma in Front-End Development from Route Academy, where I learned modern 
-      web practices and project-based development. I’m also a graduate of the Department of 
-      Information Technology, Faculty of Science, Minia University (2025). I’m eager to join 
-      a professional development team to contribute my skills, grow technically, and collaborate 
-      on innovative projects.`,
-  },
-  {
-  role: "Frontend Developer",
-  company: "IonBit (Remote)",
-  duration: "2026 - Present",
-  description: `
-    I am currently working remotely at IonBit as a Front-End Developer,
-    where I contribute to building modern, scalable, and responsive web applications
-    using React, Tailwind CSS, and modern JavaScript practices. 
-    I collaborate with the team to deliver high-quality UI/UX experiences and optimize performance across projects.
-  `,
-},
 ];
+
 
 const Experience = () => {
   return (
