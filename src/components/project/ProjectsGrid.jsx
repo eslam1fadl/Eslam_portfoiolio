@@ -59,9 +59,16 @@ const projects = [
     image: "/images/e92ed228a6924420a8963bdc6c9ddef1.webp",
     link: "https://movies-nine-lovat.vercel.app/",
   },
+   {
+  id: 7,
+  title: "ai-headshot",
+description: "Turn any selfie into a professional headshot with Cloudinary generative AI, built with React and TypeScript.",
+  image: "https://i.ibb.co/G4Mn7Xv8/male-innovators-breakthrough-overlapping-digital-data-streams-aesthetic-ai-prompt-6a5c2b9b2d26f.webp",
+  link: "https://ai-headshot-ecru.vercel.app/",
+},
   
   {
-    id:7,
+    id:8,
     title: "Games Hub",
     description:
       "A fun games listing website displaying trending and popular games with categories and responsive design.",
@@ -69,7 +76,7 @@ const projects = [
     link: "https://eslam1fadl.github.io/Games/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Global Weather App",
     description:
       "A weather app that provides real-time weather updates for any city worldwide using OpenWeather API.",
@@ -77,7 +84,7 @@ const projects = [
     link: "https://eslam1fadl.github.io/Global-Weather/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Daniels Portfolio",
     description:
       "A responsive personal portfolio template built with HTML, CSS, and JavaScript showcasing animations and sections.",
@@ -85,7 +92,7 @@ const projects = [
     link: "https://eslam1fadl.github.io/Daniels/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Notes Backend API",
     description:
       "A Node.js and Express backend project for managing notes with CRUD operations and MongoDB integration.",
@@ -93,7 +100,7 @@ const projects = [
     link: "https://github.com/pjs-backend/project_notes",
   },
   {
-    id: 11,
+    id: 12,
     title: "Saraha Clone Backend",
     description:
       "A backend system built with Express and MongoDB that mimics the Saraha anonymous messaging platform.",
