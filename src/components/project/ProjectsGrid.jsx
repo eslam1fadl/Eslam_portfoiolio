@@ -7,7 +7,7 @@ const projects = [
     title: "Clinic Management System",
     description:
       "A desktop clinic management system for managing patients, appointments, payments, inventory, and WhatsApp reminders with role-based access and financial tracking.",
-    image: "https://i.ibb.co/tRhCY47/17341122421585.png",
+    image: "public/images/1_4rpON7pS0x3zcWgBY1ZO-g.webp",
     link: "https://drive.google.com/file/d/1LHPqEyTOPvyoC4c6mANjwtdeGkjZKLlj/view?usp=sharing",
   },
   {
@@ -15,7 +15,7 @@ const projects = [
     title: "Agency Website",
     description:
       "Modern digital agency website built with React and Tailwind CSS, featuring smooth animations and a responsive layout.",
-    image: "https://g.top4top.io/p_3782m3vtq1.jpg",
+    image: "public/images/adhive-bkg.webp",
     link: "https://agency-iota-lemon.vercel.app/",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     title: "Basta E-Commerce Platform",
     description:
       "A production e-commerce platform developed at Ionbit, featuring a responsive interface, Zustand state management, and RESTful API integration. Currently in the testing phase.",
-    image: "https://i.ibb.co/MkF42PjP/21424887.jpg",
+    image: "public/images/21424887.webp",
     link: "https://bs6a.com/",
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     title: "Medical Website (Graduation Project)",
     description:
   "Graduation project at the Faculty of Science, Minya University. A modern travel website built with React.js",   
-   image: "https://i.ibb.co/27Pk3HRd/special-img.jpg",
+   image: "public/images/special-img.webp",
     link: "https://g-project-two.vercel.app/",
   },
   {
@@ -39,7 +39,7 @@ const projects = [
     title: "travel-site",
     description:
       "Nomadica – Travel landing page built with Next.js, showcasing top destinations with modern design and smooth animations.",
-    image: "https://i.ibb.co/gZD9d9n0/globaltravelandtourism.jpg",
+    image: "public/images/globaltravelandtourism.webp",
     link: "https://travel-site-aqbl.vercel.app/",
   },
   {
@@ -47,7 +47,7 @@ const projects = [
     title: "E-Commerce Website",
     description:
       "Graduation project for the Front-End Development Diploma at Route Academy. An e-commerce platform built with React and Redux",
-       image: "https://i.ibb.co/8gdnPzkc/showing-cart-trolley-shopping-online-sign-graphic-53876-133967.avif",
+       image: "public/images/showing-cart-trolley-shopping-online-sign-graphic-53876-133967.webp",
     link: "https://ecommerce-wheat-eight-45.vercel.app/",
   },
   
@@ -63,7 +63,7 @@ const projects = [
   id: 7,
   title: "ai-headshot",
 description: "Turn any selfie into a professional headshot with Cloudinary generative AI, built with React and TypeScript.",
-  image: "https://i.ibb.co/G4Mn7Xv8/male-innovators-breakthrough-overlapping-digital-data-streams-aesthetic-ai-prompt-6a5c2b9b2d26f.webp",
+  image: "public/images/images.jfif",
   link: "https://ai-headshot-ecru.vercel.app/",
 },
   
@@ -80,7 +80,7 @@ description: "Turn any selfie into a professional headshot with Cloudinary gener
     title: "Global Weather App",
     description:
       "A weather app that provides real-time weather updates for any city worldwide using OpenWeather API.",
-    image: "https://i.ibb.co/VY09fD6S/com-precisedefend-vitiaz-icon-2023-09-21-21-55-05.png",
+    image: "public/images/com-precisedefend-vitiaz-icon-2023-09-21-21-55-05.webp",
     link: "https://eslam1fadl.github.io/Global-Weather/",
   },
   {
